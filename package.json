@@ -1,0 +1,31 @@
+{
+  "name": "useeventemitter",
+  "version": "1.0.0",
+  "description": "A react hook that enables your components to commnunicate using events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivs077/useEventEmitter.git"
+  },
+  "keywords": [
+    "react",
+    "events",
+    "rxjs",
+    "react",
+    "rxjs",
+    "library",
+    "events",
+    "hook",
+    "react",
+    "hook"
+  ],
+  "author": "Shivs077",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivs077/useEventEmitter/issues"
+  },
+  "homepage": "https://github.com/shivs077/useEventEmitter#readme"
+}
