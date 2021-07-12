@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/shivs077/useEventEmitter/issues"
   },
-  "homepage": "https://github.com/shivs077/useEventEmitter#readme"
+  "homepage": "https://github.com/shivs077/useEventEmitter#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "rxjs": "^7.2.0"
+  }
 }
