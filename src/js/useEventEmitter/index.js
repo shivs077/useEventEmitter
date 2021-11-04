@@ -29,7 +29,7 @@ const useEventEmitter = (subscribers = () => {}, useGlobal = true) => {
 
   /* 
     To subscribe/unsubscribe to the observable on mount and/or change in the the subscribers instance.
-    Note: subscribers function need to be memoized to reduce unnecessary unsubscribe-ssubscribe cycles
+    Note: subscribers function need to be memoized to reduce unnecessary unsubscribe-subscribe cycles
   */
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const useEventEmitter = (subscribers = () => {}, useGlobal = true) => {
     return () => subscription.unsubscribe();
   }, [observable, subscribers]);
 
-  // Memoizing the return
+  // Memoizing the returned object
   return useMemo(
     () => ({
       observable,
